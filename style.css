@@ -12,24 +12,24 @@ body {
 .imagemperfil img {
     width: 200px;
     position: absolute;
-    top: 80px;
-    left: 850px;
+    top: 10%;
+    left: 41%;
 }
 
 .descricao1 {
     position: absolute;
-    left: 880px;
-    top: 280px;
+    left: 44%;
+    top: 50px;
 }
 
 .descricao2 {
     position: absolute;
-    left: 1100px;
-    top: 150px;
+    left: 31%;
+    top: 33%;
     width: 400px;
 }
 
-.descricao2 h3 {
+.descricao2 h3, .descricao2 p {
     text-align: center;
 }
 
@@ -39,22 +39,15 @@ body {
 }
 
 .links {
-    padding-top: 260px;
-    padding-left: 650px;
-}
-
-.links h3 {
-    padding: 20px 0 0 0;
-}
-
-.habilidades h3 {
-    padding: 20 0 20 20;
+    position: absolute;
+    top: 53%;
+    left: 50%;
 }
 
 .habilidades {
     position: absolute;
-    top: 350px;
-    left: 1150px;
+    top: 55%;
+    left: 20%;
 }
 
 .habilidades li {
