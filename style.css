@@ -1,22 +1,46 @@
 body {
-    background-color: aliceblue;
+    background-color: rgb(4, 9, 14);
     font-family: Helvetica, sans-serif;
     padding: 0 0 0 0px;
-    margin-left: 40px;
+    color: greenyellow;
 }
 
-header img {
+.nome {
+    text-align: center;
+}
+
+.imagemperfil img {
     width: 200px;
+    position: absolute;
+    top: 80px;
+    left: 850px;
 }
 
-header p {
-    font-weight: 545;
-    padding-bottom: 50px;
+.descricao1 {
+    position: absolute;
+    left: 880px;
+    top: 280px;
+}
+
+.descricao2 {
+    position: absolute;
+    left: 1100px;
+    top: 150px;
+    width: 400px;
+}
+
+.descricao2 h3 {
+    text-align: center;
 }
 
 .links a {
    text-decoration: underline; 
    color: blue;
+}
+
+.links {
+    padding-top: 260px;
+    padding-left: 650px;
 }
 
 .links h3 {
@@ -28,7 +52,9 @@ header p {
 }
 
 .habilidades {
-    padding-top: 50px;
+    position: absolute;
+    top: 350px;
+    left: 1150px;
 }
 
 .habilidades li {
