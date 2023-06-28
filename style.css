@@ -1,0 +1,39 @@
+body {
+    background-color: aliceblue;
+    font-family: Helvetica, sans-serif;
+    padding: 0 0 0 0px;
+}
+
+header img {
+    width: 200px;
+}
+
+header p {
+    font-weight: 545;
+}
+
+.links a {
+   text-decoration: underline; 
+   color: blue;
+}
+
+.links {
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.links h3 {
+    padding: 20px 0 0 0;
+}
+
+.habilidades h3 {
+    padding: 20 0 20 20;
+}
+
+.habilidades {
+    display: inline-block;
+}
+
+.habilidades li {
+    padding: 5px;
+}
