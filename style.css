@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(4, 9, 14);
+    font-family: Helvetica, sans-serif;
+    padding: 0 0 0 0px;
+    color: greenyellow;
+}
+
+.nome {
+    text-align: center;
+}
+
+.imagemperfil img {
+    width: 200px;
+    margin-left: 42%;
+    margin-top: 20px;
+}
+
+.descricao1 {
+    margin-left: 43.5%;
+}
+
+.descricao2 h3, .descricao2 p {
+    text-align: center;
+    width: 500px;
+    margin-left: 31%;
+}
+
+.links a {
+   text-decoration: underline; 
+   color: blue;
+}
+
+.links {
+    position: absolute;
+    left: 820px;
+    top: 453px;
+    padding: 20px;
+} 
+
+.habilidades {
+display: inline-block;
+margin-left: 25%;
+height: 230px;
+margin-top: 18px;
+}
+
+.habilidades li {
+    padding: 2px;
+}
