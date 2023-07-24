@@ -1,0 +1,56 @@
+.color {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+.color:nth-of-type( 1 ) {
+  background-color: black;
+}
+
+.color:nth-of-type( 2 ) {
+  background-color: red;
+}
+
+.color:nth-of-type( 3 ) {
+  background-color: blue;
+}
+
+.color:nth-of-type( 4 ) {
+  background-color: green;
+}
+
+.pixel {
+  margin-top: -5px;
+  margin-left: -1px;
+}
+
+#clear-board {
+  margin-top: 5px;
+  font-size: 8px;
+  background-color: black;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#button-random-color {
+  margin-top: px;
+  font-size: 8px;
+  background-color: black;
+  color: white;
+}
+
+#board-size {
+  margin-top: 5px;
+  width: 65px;
+  height: 10px;
+}
+
+#generate-board {
+  margin-top: 5px;
+  font-size: 8px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
