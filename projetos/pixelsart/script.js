@@ -141,7 +141,7 @@ const criandoVQV = () => {
   botoes.appendChild(inputVQV);
   const buttonVQV = document.createElement('button');
   buttonVQV.id = 'generate-board';
-  buttonVQV.innerText = 'VQV';
+  buttonVQV.innerText = 'Pixels';
   buttonVQV.style.marginLeft = '10px';
   botoes.appendChild(buttonVQV);
 };
