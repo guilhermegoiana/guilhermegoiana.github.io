@@ -37,6 +37,11 @@ body {
     padding: 20px;
 } 
 
+.flex-container {
+  display: flex;
+  justify-content:;
+}
+
 .habilidades {
 display: inline-block;
 margin-left: 25%;
