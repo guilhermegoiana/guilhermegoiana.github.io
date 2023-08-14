@@ -1,0 +1,98 @@
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  margin: -8px;
+}
+
+.header h1 {
+  text-align: center;
+  padding-top: 18px;
+}
+
+.header img {
+  width: 70px;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+main {
+  display: flex;
+  margin-left: 60px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  margin-left: 40px;
+}
+
+#form-title {
+  margin-left: 15%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#separador {
+  margin-top: 4%;
+  border: 1px solid black;
+}
+
+#radioCheckbox {
+  display: flex;
+  align-items: flex-start;
+  height: 25px;
+  flex: 1 0 0%;
+  margin-bottom: 10px;
+}
+
+#radio {
+  width: 280px;
+  height: 10px;
+}
+
+#radios {
+  margin-top: 30px;
+  display: flex;
+}
+
+.flexRadios {
+  display: flex;
+}
+
+#agreement {
+  margin-left: 10px;
+}
+
+#checkboxAgreement {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+footer {
+  display: flex;
+  background-color: darkslategrey;
+  margin-top: 20px;
+  height: 50px;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  font-weight: 800;
+}
+
+#form-data {
+  display: none;
+  width: 40%;
+  margin-top: 5%;
+  flex-direction: column;
+}
